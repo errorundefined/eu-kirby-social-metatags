@@ -7,7 +7,7 @@ This is a Kirby snippet (to be used with the [Kirby CMS](getkirby.com)) to be ca
 
 It scope somewhat differs from [@stephanbogner's](https://github.com/stephanbogner) approach in [Link Preview for Social Networks from Kirbytext](https://github.com/stephanbogner/Link-Preview-for-Social-Networks-from-Kirbytext) because it tries to mostly auto-generate everything form the site's settings.
 
-This is an early alpha version, there's a lot to do.. If you want to help us improve it, please to so!
+This is an early alpha version, there's a lot to do.. If you want to help us improve it, please do so!
 
 ## Installation
 
