@@ -40,4 +40,6 @@ This thing requires a lot of fields (but most of them you'll have anyways or wou
 
 ## License
 
-MIT
+[MIT](https://opensource.org/licenses/MIT)
+
+It is discouraged to use this plugin in any project that promotes racism, sexism, homophobia, animal abuse, violence or any other form of hate speech.
