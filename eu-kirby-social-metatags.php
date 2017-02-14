@@ -120,6 +120,12 @@ if($page->facebook_author() != ""){
 	$facebook_author = false;
 }
 
+if($site->article_tag() != ""){
+	$article_tag = $site->article_tag();
+} else {
+	$article_tag = false;
+}
+
 // GET FACEBOOK ADMIN ID
 if($site->facebook_admin() != ""){
 	$facebook_admin = $site->facebook_admin();
@@ -140,6 +146,8 @@ function shorten($string,$length=155,$append="&hellip;") {
 	return $string;
 }
 ?>
+
+
 
 <!-- Schema.org Data -->
 <meta itemprop="name" content="<?php echo $page_title ?>">
@@ -168,6 +176,8 @@ function shorten($string,$length=155,$append="&hellip;") {
 <meta property="og:updated_time" content="<?php echo $mod_date ?>" />
 <?php endif ?>
 <?php if($page_root): ?><meta property="article:section" content="<?php echo $page_root ?>" />
+<?php endif ?>
+<?php if($article_tag): ?><meta property="article:tag" content="<?php echo $article_tag ?>" />
 <?php endif ?>
 <meta property="article:tag" content="Article Tag" />
 <?php if($facebook_publisher): ?><meta property="article:publisher" content="<?php echo $facebook_publisher ?>" />
